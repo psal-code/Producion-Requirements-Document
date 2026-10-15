@@ -28,13 +28,12 @@ const userSchema = new Schema(
         
      }
 
+    },
+
+    {
+      timestamps: true
     }
 )
-
-
-
-
-
 
 //before saving any password we need to hash it
 userSchema.pre("save", async function() {
