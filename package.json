@@ -1,0 +1,33 @@
+{
+  "name": "production-requirements-document",
+  "version": "1.0.0",
+  "description": "A project for PRD",
+  "homepage": "https://github.com/psal-code/Production-Requirements-Document#readme",
+  "bugs": {
+    "url": "https://github.com/psal-code/Production-Requirements-Document/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psal-code/Production-Requirements-Document.git"
+  },
+  "license": "ISC",
+  "author": "BIG PSALM",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev start": "nodemon backend/src/index.js",
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrpyt": "^2.0.0",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
